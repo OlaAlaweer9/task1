@@ -81,7 +81,8 @@ color: white;}
 
   
   @media (min-width: 576px) and (max-width: 768px) {
- .cards{
+ .cards{   
+ 
     display: block;
  }
  .card img {
@@ -97,11 +98,17 @@ color: white;}
 }
 }
   
+@media (min-width: 576px) and (max-width: 662px) {
+  .footer{   
   
+     display: block;
+     padding-top: 1%;
+  }}
 
 @media (max-width: 575.98px) {
-    .cards {
+    .cards,.footer {
       display: block;
+      padding-top: 1%;
     }
   
     .card {
